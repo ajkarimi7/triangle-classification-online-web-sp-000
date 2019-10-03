@@ -2,7 +2,11 @@ class Triangle
   attr_reader :a, :b, :c
   # write code here
   
-  def initialize
+  def initialize(a, b, c)
+    @a = a
+    @b = b
+    @c = c
+  end 
   
   class TriangleError < StandardError
   end 

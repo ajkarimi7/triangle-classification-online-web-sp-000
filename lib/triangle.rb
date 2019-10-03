@@ -1,7 +1,5 @@
 class Triangle
   attr_reader :a, :b, :c
-  # write code here
-  
   def initialize(a, b, c)
     @a = a
     @b = b
@@ -16,6 +14,7 @@ class Triangle
     else 
       :scalene
   end 
+end 
   
   def validate_triangle
     real_triangle = [(a +b > c), (a + c > b), (b + c > a)]

@@ -1,6 +1,8 @@
 class Triangle
-  attr_accessor
+  attr_reader :a, :b, :c
   # write code here
+  
+  def initialize
   
   class TriangleError < StandardError
   end 
